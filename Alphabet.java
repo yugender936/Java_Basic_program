@@ -6,10 +6,10 @@ class Alphabet
 		char ch = '7';
 		if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
 		{
-			System.out.println("Character");
+			System.out.println("Alphabet");
 		}
 		else{
-			System.out.println("Not a character");
+			System.out.println("Not a Alphabet");
 		}
   }
 }
