@@ -1,13 +1,16 @@
-class Evenorodd
+class Posorneg
 {
 	public static void main(String[] args) 
 	{
 	    int n = 4;
-		if(n%2 == 0){
-			System.out.println("Even");
+		if(n>0){
+			System.out.println("Positive Number");
 		}
-		else {
-			System.out.println("Odd");
+		else if(n < 0){
+			System.out.println("Negative Number");
+		}
+		else{
+			System.out.println("Zero");
 		}
   }
 }
