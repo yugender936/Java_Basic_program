@@ -1,15 +1,15 @@
-class Alphabet
+class Evenorodd
 {
 	public static void main(String[] args) 
 	{
-	    int n = 4;
-		char ch = 'a';
-		if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+	        int n = 4;
+		if(n % 2 == 0 )
 		{
-			System.out.println("Character");
+			System.out.println("Even");
 		}
-		else{
-			System.out.println("Not a character");
+		else
+		{
+			System.out.println("Odd");
 		}
   }
 }
